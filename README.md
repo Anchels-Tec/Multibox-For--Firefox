@@ -4,6 +4,9 @@ Abra **várias sessões isoladas do mesmo site** no mesmo Firefox — ex: **2 Wh
 logados em contas diferentes, 2 Instagram, 2 Gmail, etc. Cada "caixa" é um **container**
 (`contextualIdentities`) com cookies/localStorage próprios.
 
+> ☕ **Apoie o projeto:** se te ajudou, ajude a manter o desenvolvimento e custear os gastos →
+> **[Doar no Ko-fi](https://ko-fi.com/anchelslabdev)** (aceita cartão internacional e PayPal).
+
 ## Como usar
 Funciona com **qualquer site/aplicação** — não só os apps de exemplo.
 - Clique no ícone do Multibox.
