@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Multibox</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>🗃️ Multibox</h1>
+    <p class="site" id="site">—</p>
+
+    <button class="primary" id="btn-nova">➕ Abrir esta página numa nova caixa</button>
+
+    <div class="sec">Abrir qualquer site em nova caixa</div>
+    <div class="urlrow">
+      <input type="text" id="url" placeholder="ex: netflix.com ou https://site.com/app" autocomplete="off">
+      <button class="go" id="btn-url">Abrir</button>
+    </div>
+
+    <div class="sec">Meus apps (abre em nova caixa)</div>
+    <div class="presets" id="presets"></div>
+    <button class="add" id="btn-add">＋ adicionar app</button>
+    <div id="add-form" hidden>
+      <input type="text" id="app-nome" placeholder="Nome (ex: Netflix)" autocomplete="off">
+      <input type="text" id="app-url" placeholder="URL (ex: netflix.com)" autocomplete="off">
+      <div class="urlrow">
+        <button class="go" id="app-salvar">Salvar app</button>
+        <button class="add" id="app-cancelar">cancelar</button>
+      </div>
+    </div>
+
+    <div class="sec">Suas caixas</div>
+    <div id="lista"><div class="vazio">Nenhuma caixa ainda.</div></div>
+
+    <p class="hint">Cada caixa tem login/cookies próprios. Abra o mesmo site em caixas
+      diferentes pra ter contas separadas (ex: 2 WhatsApp) no mesmo Firefox.</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
