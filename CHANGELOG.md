@@ -1,5 +1,8 @@
 # Notas de versão — Multibox
 
+## 1.0.3
+- **Ícone refeito:** mais limpo e legível na barra de ferramentas (2 caixas com bom contraste, sem cortar). Agora em PNG nos tamanhos exatos (16/32/48/96/128), sem escalar o SVG.
+
 ## 1.0.2
 - **Novo ícone:** caixas empilhadas coloridas, mais reconhecível e legível em tamanho pequeno.
 
