@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Multibox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Abra varias sessoes isoladas do mesmo site (ex: 2 WhatsApp, 2 Instagram) no mesmo Firefox, usando caixas (containers) com login separado.",
   "browser_specific_settings": {
     "gecko": {
